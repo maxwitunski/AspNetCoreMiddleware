@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionExample", "SessionEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationCookie", "AuthenticationCookie\AuthenticationCookie.csproj", "{C8F01B0B-DBC1-4957-B2F4-9668345F1064}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIdConnect", "OpenIdConnect\OpenIdConnect.csproj", "{058B3F86-4A7B-4135-8531-1125FB83C219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C8F01B0B-DBC1-4957-B2F4-9668345F1064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F01B0B-DBC1-4957-B2F4-9668345F1064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F01B0B-DBC1-4957-B2F4-9668345F1064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058B3F86-4A7B-4135-8531-1125FB83C219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058B3F86-4A7B-4135-8531-1125FB83C219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058B3F86-4A7B-4135-8531-1125FB83C219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058B3F86-4A7B-4135-8531-1125FB83C219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
