@@ -1,0 +1,18 @@
+﻿<html>
+<body>
+    @if(User.Identity.IsAuthenticated)
+    {
+    @using (Html.BeginForm("Logout", "Account"))
+    {
+    <div>
+        <input type="submit" value="Log out" />
+    </div>
+    }
+    }
+    else
+    {
+    <a href="/account/login">Log-in</a>
+    }
+    <a href="/private">Private Area</a>
+</body>
+</html>
