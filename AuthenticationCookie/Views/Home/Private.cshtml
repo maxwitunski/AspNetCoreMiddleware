@@ -1,0 +1,9 @@
+﻿<html>
+<body>
+    <p>You have reached a private area of the website.</p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>The logged in user is: @User.Identity.Name</p>
+    }
+</body>
+</html>
